@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2012-12-11T01:35:51.652">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.4/common/openstack/src/main/java/org/jclouds/openstack/functions/ParseAuthenticationResponseFromHeaders.java">
+<violation beginline="85" endline="85" begincolumn="12" endcolumn="22" rule="AvoidUsingHardCodedIP" ruleset="Basic Rules" package="org.jclouds.openstack.functions" class="ParseAuthenticationResponseFromHeaders" method="getURI" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidUsingHardCodedIP" priority="3">
+Do not hard code IPv4 or IPv6 addresses, even 127.0.0.1 !
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.4/common/openstack/src/main/java/org/jclouds/openstack/keystone/v1_1/suppliers/RegionIdToURIFromAuthForServiceSupplier.java">
+<violation beginline="48" endline="55" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.openstack.keystone.v1_1.suppliers" class="RegionIdToURIFromAuthForServiceSupplier" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'apiVersion'.
+</violation>
+</file>
+</pmd>
